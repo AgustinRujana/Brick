@@ -1,5 +1,5 @@
 import mongoose from 'mongoose'
-import logger from '../config/winston'
+import logger from '../config/winston.js'
 
 export class MongoDBAtlas {
     
@@ -14,6 +14,7 @@ export class MongoDBAtlas {
     async connect(Url) {
         try {
             await mongoose.connect(this.Url, { useNewUrlParser: true, useUnifiedTopology: true })
+            logger.info('MongoDBAtlas Connected')
         } catch (error) {
             logger.error(`MongoDBAtlas: Error to connect ${error}`)            
         }

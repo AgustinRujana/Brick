@@ -10,16 +10,17 @@ const collectionUsers = 'user';
 const contentDetailSchema = mongoose.Schema({
     imgPreview: Array,
     description: String,
-    pdfPreview: String,
+    pdfPreview: String
 })
 
 const contentSchema = mongoose.Schema({
     packName: String,
-    thumbnail: String,
+    avatar: String,
     type: String,
     categorie: String,
     tags: Array,
     details: contentDetailSchema,
+    zipSrc: String
 })
 
 const userSchema = mongoose.Schema({
@@ -28,7 +29,7 @@ const userSchema = mongoose.Schema({
     surname: String,
     avatar: String,
     password: String,
-    plan: Number,
+    plan: Number
 })
 
 //////////////////////////////////

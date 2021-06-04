@@ -1,14 +1,18 @@
-import { ContentMongoDB } from '../database/db.content.service'
+import ContentMongoDB from '../database/db.content.service.js'
 
-module.exports = {
-    getCategorie: async (req, res) => {
-        let categorie  = req.query.categorie || null
+export const getCategorie = async (req,res) => {
+    let categorie  = req.query.ctg || null
+    if(categorie) {
         const contentReq = new ContentMongoDB(categorie)
         const contentRes = await contentReq.read()
-        res.status(200).send(contentRes)
-    },
-
-    getZip: (req, res) => {
-
+        res.send(contentRes)
+    } else {
+            const contentReq = new ContentMongoDB()
+            const contentRes = await contentReq.readAll()
+            res.send(contentRes)
     }
+}
+
+export const getZip = (req, res) => {
+
 }

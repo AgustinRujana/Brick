@@ -1,14 +1,17 @@
-import * as model from './models'
+import * as model from './models.js'
 
 class ContentMongoDB {
     constructor(categorie) {
         this.categorie = categorie
     }
 
-    read(categorie) {
-        if(categorie = null) {
-            return model.content.find({})
-        }
+    async readAll() {
+        console.log('lee todo')
+        return model.content.find()
+    }
+
+    async read(categorie) {
+        console.log('lee filtrado')
         return model.content.find({ categorie: categorie })
     }
 

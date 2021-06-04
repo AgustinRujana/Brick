@@ -1,9 +1,11 @@
 import winston from 'winston'
 
-export const logger = winston.createLogger({
+const logger = winston.createLogger({
     transports: [
-        new winston.transport.File({ filename: './logs/error.log', level: 'error'}),
-        new winston.transport.File({ filename: './logs/error.log', level: 'warn'}),
-        new winston.transport.File({ filename: './logs/error.log', level: 'info'})
+        new winston.transports.File({ filename: 'src/logs/error.log', level: 'error'}),
+        new winston.transports.File({ filename: 'src/logs/warn.log', level: 'warn'}),
+        new winston.transports.File({ filename: 'src/logs/info.log', level: 'info'})
     ]
 })
+
+export default logger

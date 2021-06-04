@@ -1,6 +1,6 @@
-import  * as contentService from '../services/content.service'
+import  * as contentService from '../services/content.service.js'
 
-module.exports = (app) => {
+export default function contentRoutes(app) {
     app.route('/content')
         .get(contentService.getCategorie)
     app.route('/content/:id')

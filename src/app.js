@@ -1,5 +1,5 @@
 import express from 'express'
-import logger from './config/winston'
+import logger from './config/winston.js'
 
 const app = express()
 
@@ -9,9 +9,9 @@ app.use(compression())
 ///////////////////
 
 //  Routes  //
-contentRoutes(app)
-userRoutes(app)
+import contentRoutes from './routes/content.js'
 //////////////
+
 
 ///////////////////////
 //  Cluster & Start  //
@@ -19,7 +19,7 @@ userRoutes(app)
 import os from 'os'
 import cluster from 'cluster'
 import http from 'http'
-import { MongoDBAtlas } from './database/db'
+import { MongoDBAtlas } from './database/db.js'
 
 const numCPUs = os.cpus().length
 const server = http.Server(app)
@@ -30,17 +30,21 @@ if(cluster.isMaster) {
     for(let i = 0; i < numCPUs; i++) {
         cluster.fork()
     }
-
+    
     cluster.on('exit', worker => {
         logger.info(`Worker ${worker.process.pid} end`)
         cluster.fork()
     })
 } else {
+    //  Routes  //
+    contentRoutes(app)
+    //userRoutes(app)
+    //////////////
+    
     server.listen(port, async () => {
         logger.info(`Running on port ${port}`)
         const mongo = new MongoDBAtlas('mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority')
         await mongo.connect()
-        logger.info('MongoDBAtlas Connected')
     })
 }
 
