@@ -3,19 +3,32 @@ import logger from './config/winston.js'
 
 const app = express()
 
+//  Cookie Parser //
+import cookieParser from 'cookie-parser'
+app.use(cookieParser())
+////////////////////
+
 //  Compression  //
 import compression from 'compression'
 app.use(compression())
 ///////////////////
 
-//  Routes  //
-import contentRoutes from './routes/content.js'
-//////////////
+//  Session  //
+import session from 'session'
+app.use(session({
+    secret: 'NeverUnderstoodWhyThisExist',
+    saveUninitialized: true
+}))
+///////////////
 
+// Handlebars //
+import handlebarsConfig from './config/handlebars.js'
+handlebarsConfig(app)
+////////////////
 
-///////////////////////
-//  Cluster & Start  //
-///////////////////////
+//////////////////////////////////////
+//          Cluster & Start         //
+//////////////////////////////////////
 import os from 'os'
 import cluster from 'cluster'
 import http from 'http'
@@ -36,9 +49,12 @@ if(cluster.isMaster) {
         cluster.fork()
     })
 } else {
+
     //  Routes  //
+    import contentRoutes from './routes/content.js'
+    import userRoutes from './routes/user.js'
     contentRoutes(app)
-    //userRoutes(app)
+    userRoutes(app)
     //////////////
     
     server.listen(port, async () => {
