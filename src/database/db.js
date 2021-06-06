@@ -13,7 +13,7 @@ export class MongoDBAtlas {
 
     async connect(Url) {
         try {
-            await mongoose.connect(this.Url, { useNewUrlParser: true, useUnifiedTopology: true })
+            await mongoose.connect(this.Url, { useNewUrlParser: true, useUnifiedTopology: true }).catch( error => logger.error(`Connection error: ${error}`))
             logger.info('MongoDBAtlas Connected')
         } catch (error) {
             logger.error(`MongoDBAtlas: Error to connect ${error}`)            

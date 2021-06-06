@@ -34,6 +34,6 @@ const userSchema = mongoose.Schema({
 
 //////////////////////////////////
 
-export const content = mongoose.model(collectionContent, contentSchema);
-export const user = mongoose.model(collectionUsers, userSchema)
+export const content = mongoose.model(collectionContent, contentSchema, 'content');
+export const user = mongoose.model(collectionUsers, userSchema, 'user')
 

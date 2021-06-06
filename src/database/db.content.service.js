@@ -1,18 +1,15 @@
+import logger from '../config/winston.js'
 import * as model from './models.js'
 
 class ContentMongoDB {
-    constructor(categorie) {
-        this.categorie = categorie
-    }
+    constructor() {}
 
-    async readAll() {
-        console.log('lee todo')
-        return model.content.find()
-    }
-
-    async read(categorie) {
-        console.log('lee filtrado')
-        return model.content.find({ categorie: categorie })
+    read(query, entries) {
+       return model.content.find(query, entries, err => {
+            if(err) { 
+                logger.error(`Query Error: ${error}`)
+            }
+        })
     }
 
     //There is no need for a write() operation
