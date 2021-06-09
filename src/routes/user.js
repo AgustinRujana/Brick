@@ -6,14 +6,15 @@ export default function userRoutes(app, passport) {
     app.route('/account/register')
         .get(userService.register)
         .post(userService.registerSubmit(passport))   
+        
+        // app.post('/account/register', passport.authenticate('local-signup', {
+        //     sucessRedirect: '/',
+        //     failureRedirect: '/account/register',
+        //     failureFlash: true
+        //     })
+        // )
 }
 
-////////////////////////
+//////////////////////
 
-// app.post('/account/register', passport.authenticate('local-signup', {
-//     sucessRedirect: '/',
-//     failureRedirect: '/account/register',
-//     failureFlash: true
-// })
-
-////////////////////////
+//////////////////////

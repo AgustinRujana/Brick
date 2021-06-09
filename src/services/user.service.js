@@ -23,5 +23,6 @@ export const registerSubmit = (passport) => {
     return  passport.authenticate('local-signup', {
         successRedirect: '/',
         failureRedirect: '/account/register',
+        failureFlash: true 
     })
 }

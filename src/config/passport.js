@@ -19,8 +19,11 @@ const passportConfig = (passport) => {
       function(email, password, done) {
         process.nextTick( () => {
           User.findOne({ email: email }, function (err, user) {
-            if (err) { return done(err); }
+            if (err) {
+              return done(err); 
+            }
             if (user) {
+              console.log('User Taken')
               return done(null, false, {message: 'That email already taken'});
             }
 
