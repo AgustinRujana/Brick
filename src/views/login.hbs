@@ -1,0 +1,19 @@
+<main class="container">       
+    <img class="logo" src="/img/logoXL.png" alt="Logo Brick">
+    <div class="red"></div>
+    <div class="form-container">
+        <div class="flex-col">
+            <button class="btn-trns">
+                <img class="btn-google"src="/img/btn-google.png">
+            </button>
+            <p>Or log in an account:</p>
+        </div>
+        <form method="POST" action="/account/login">
+            <input name="email" class="form-control" id="signUpFormEmail" placeholder="E-mail">
+            <p class="error-msg">{{errors.emailError}}</p>
+            <input name="password" class="form-control" id="signUpFormPassword" placeholder="Password">
+            <input class="btn-submit" type="submit" value="Log In">
+        </form>  
+        <p class="bottom-msg">Need an account? <a href="/account/register">Sign In</a></p>
+    </div>
+</main>

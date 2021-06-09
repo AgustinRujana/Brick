@@ -1,38 +1,74 @@
 import express from 'express'
 import logger from './config/winston.js'
-
-const app = express()
-
-//  Cookie Parser //
 import cookieParser from 'cookie-parser'
-app.use(cookieParser())
-////////////////////
-
-//  Compression  //
 import compression from 'compression'
-app.use(compression())
-///////////////////
 
-//  Session  //
-import session from 'session'
-app.use(session({
-    secret: 'NeverUnderstoodWhyThisExist',
-    saveUninitialized: true
-}))
-///////////////
+import path from 'path'
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Handlebars //
-import handlebarsConfig from './config/handlebars.js'
-handlebarsConfig(app)
-////////////////
 
-//////////////////////////////////////
-//          Cluster & Start         //
-//////////////////////////////////////
 import os from 'os'
 import cluster from 'cluster'
 import http from 'http'
 import { MongoDBAtlas } from './database/db.js'
+
+import session from 'express-session'
+import passport from 'passport'
+import passportConfig from './config/passport.js'
+import flash from 'connect-flash'
+import contentRoutes from './routes/content.js'
+import userRoutes from './routes/user.js'
+
+const app = express()
+
+//  Cookie & Body Parser //
+app.use(cookieParser())
+app.use(express.urlencoded({ extended: true }))
+app.use(express.json())
+
+app.use(express.static(path.join(__dirname, '/public')))
+////////////////////
+
+//  Compression  //
+app.use(compression())
+///////////////////
+
+//  Session, Passport & Flash//
+passportConfig(passport)
+app.use(session({
+    secret: 'NeverUnderstoodWhyThisExist',
+    resave: true,
+    saveUninitialized: true
+}))
+
+app.use(passport.initialize())
+app.use(passport.session())
+app.use(flash())
+///////////////
+
+// Handlebars //
+import handlebars from 'express-handlebars'
+app.engine( 
+    "hbs",
+    handlebars({
+        extname: ".hbs",
+        defaultLayout: "index.hbs"
+    })
+);
+app.set("view engine", "hbs");
+app.set("views", path.join(__dirname, 'views'));
+////////////////
+
+//  Routes  //
+contentRoutes(app, passport)
+userRoutes(app, passport)
+//////////////
+
+//////////////////////////////////////
+//          Cluster & Start         //
+//////////////////////////////////////
 
 const numCPUs = os.cpus().length
 const server = http.Server(app)
@@ -49,14 +85,6 @@ if(cluster.isMaster) {
         cluster.fork()
     })
 } else {
-
-    //  Routes  //
-    import contentRoutes from './routes/content.js'
-    import userRoutes from './routes/user.js'
-    contentRoutes(app)
-    userRoutes(app)
-    //////////////
-    
     server.listen(port, async () => {
         logger.info(`Running on port ${port}`)
         const mongo = new MongoDBAtlas('mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority')

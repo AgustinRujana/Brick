@@ -1,4 +1,4 @@
-{"message":"PID Master 40020","level":"info"}
+{"message":"PID Master 53640","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -23,8 +23,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 36596 end","level":"info"}
-{"message":"PID Master 59196","level":"info"}
+{"message":"Worker 3756 end","level":"info"}
+{"message":"PID Master 103824","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -49,8 +49,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 53072 end","level":"info"}
-{"message":"PID Master 61932","level":"info"}
+{"message":"Worker 7512 end","level":"info"}
+{"message":"PID Master 79544","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -75,8 +75,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 43948 end","level":"info"}
-{"message":"PID Master 59956","level":"info"}
+{"message":"Worker 114388 end","level":"info"}
+{"message":"PID Master 103088","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -101,8 +101,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 65880 end","level":"info"}
-{"message":"PID Master 79804","level":"info"}
+{"message":"Worker 139548 end","level":"info"}
+{"message":"PID Master 174620","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -127,7 +127,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 81364","level":"info"}
+{"message":"Worker 144440 end","level":"info"}
+{"message":"PID Master 116268","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -152,8 +153,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 77000 end","level":"info"}
-{"message":"PID Master 75572","level":"info"}
+{"message":"PID Master 136256","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -178,7 +178,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 23348","level":"info"}
+{"message":"PID Master 59060","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -203,7 +203,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 55448","level":"info"}
+{"message":"Worker 18608 end","level":"info"}
+{"message":"PID Master 119748","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -228,7 +229,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 95820","level":"info"}
+{"message":"Worker 124680 end","level":"info"}
+{"message":"PID Master 2444","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -253,8 +255,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 93696 end","level":"info"}
-{"message":"PID Master 172772","level":"info"}
+{"message":"Worker 15912 end","level":"info"}
+{"message":"PID Master 158264","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -279,8 +281,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 80076 end","level":"info"}
-{"message":"PID Master 58384","level":"info"}
+{"message":"PID Master 119120","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -305,8 +306,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 90088 end","level":"info"}
-{"message":"PID Master 115380","level":"info"}
+{"message":"Worker 144612 end","level":"info"}
+{"message":"PID Master 171372","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -331,7 +332,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 136860","level":"info"}
+{"message":"PID Master 16848","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -356,7 +357,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 134672","level":"info"}
+{"message":"PID Master 29548","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -381,7 +382,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 146164","level":"info"}
+{"message":"PID Master 158672","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -406,8 +407,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 20792 end","level":"info"}
-{"message":"PID Master 144368","level":"info"}
+{"message":"Worker 124200 end","level":"info"}
+{"message":"PID Master 30336","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -432,8 +433,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 131076 end","level":"info"}
-{"message":"PID Master 160248","level":"info"}
+{"message":"PID Master 21296","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -458,16 +458,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 8104 end","level":"info"}
-{"message":"Worker 156120 end","level":"info"}
-{"message":"Worker 10840 end","level":"info"}
-{"message":"Worker 151508 end","level":"info"}
-{"message":"Worker 150544 end","level":"info"}
-{"message":"Worker 158180 end","level":"info"}
-{"message":"Worker 148204 end","level":"info"}
-{"message":"Worker 154876 end","level":"info"}
-{"message":"Worker 141188 end","level":"info"}
-{"message":"PID Master 69540","level":"info"}
+{"message":"Worker 28864 end","level":"info"}
+{"message":"PID Master 170284","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -492,8 +484,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 59816 end","level":"info"}
-{"message":"PID Master 70396","level":"info"}
+{"message":"Worker 155828 end","level":"info"}
+{"message":"PID Master 22196","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -518,8 +510,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 77544 end","level":"info"}
-{"message":"PID Master 81460","level":"info"}
+{"message":"Worker 19820 end","level":"info"}
+{"message":"PID Master 35376","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -544,8 +536,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 47908 end","level":"info"}
-{"message":"PID Master 50540","level":"info"}
+{"message":"PID Master 31200","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -570,8 +561,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 61044 end","level":"info"}
-{"message":"PID Master 55288","level":"info"}
+{"message":"Worker 24916 end","level":"info"}
+{"message":"PID Master 35932","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -596,8 +587,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 41920 end","level":"info"}
-{"message":"PID Master 83460","level":"info"}
+{"message":"PID Master 153288","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -622,7 +612,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 96340","level":"info"}
+{"message":"Worker 168680 end","level":"info"}
+{"message":"PID Master 8956","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -647,8 +638,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 30176 end","level":"info"}
-{"message":"PID Master 106912","level":"info"}
+{"message":"PID Master 53340","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -673,8 +663,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 108596 end","level":"info"}
-{"message":"PID Master 31760","level":"info"}
+{"message":"PID Master 126480","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -699,8 +688,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 97928 end","level":"info"}
-{"message":"PID Master 74028","level":"info"}
+{"message":"Worker 26588 end","level":"info"}
+{"message":"PID Master 49880","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -725,8 +714,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 46792 end","level":"info"}
-{"message":"PID Master 156124","level":"info"}
+{"message":"Worker 78928 end","level":"info"}
+{"message":"PID Master 54620","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -751,8 +740,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 68812 end","level":"info"}
-{"message":"PID Master 23504","level":"info"}
+{"message":"Worker 90104 end","level":"info"}
+{"message":"PID Master 90600","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -777,7 +766,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 49204","level":"info"}
+{"message":"Worker 77972 end","level":"info"}
+{"message":"PID Master 29608","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -802,8 +792,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 91228 end","level":"info"}
-{"message":"PID Master 24692","level":"info"}
+{"message":"Worker 66896 end","level":"info"}
+{"message":"PID Master 96948","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -828,7 +818,17 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 96892","level":"info"}
+{"message":"Worker 150828 end","level":"info"}
+{"message":"Worker 35064 end","level":"info"}
+{"message":"Worker 82688 end","level":"info"}
+{"message":"Worker 94636 end","level":"info"}
+{"message":"Worker 46024 end","level":"info"}
+{"message":"Worker 78720 end","level":"info"}
+{"message":"Worker 114544 end","level":"info"}
+{"message":"Worker 57744 end","level":"info"}
+{"message":"Worker 69912 end","level":"info"}
+{"message":"Worker 73156 end","level":"info"}
+{"message":"PID Master 87944","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -853,7 +853,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 101884","level":"info"}
+{"message":"Worker 79780 end","level":"info"}
+{"message":"PID Master 147372","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -878,7 +879,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 138600","level":"info"}
+{"message":"Worker 105024 end","level":"info"}
+{"message":"PID Master 94868","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -903,7 +905,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 125328","level":"info"}
+{"message":"Worker 123356 end","level":"info"}
+{"message":"PID Master 146532","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -928,8 +931,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 162728 end","level":"info"}
-{"message":"PID Master 136068","level":"info"}
+{"message":"Worker 64988 end","level":"info"}
+{"message":"PID Master 115244","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -954,8 +957,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 137080 end","level":"info"}
-{"message":"PID Master 115804","level":"info"}
+{"message":"Worker 121200 end","level":"info"}
+{"message":"PID Master 161644","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -980,8 +983,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 117168 end","level":"info"}
-{"message":"PID Master 90424","level":"info"}
+{"message":"Worker 87920 end","level":"info"}
+{"message":"PID Master 133708","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1006,8 +1009,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 102800 end","level":"info"}
-{"message":"PID Master 116748","level":"info"}
+{"message":"Worker 157128 end","level":"info"}
+{"message":"PID Master 141296","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1032,8 +1035,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 22240 end","level":"info"}
-{"message":"PID Master 109008","level":"info"}
+{"message":"Worker 130412 end","level":"info"}
+{"message":"PID Master 100456","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1058,8 +1061,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 129424 end","level":"info"}
-{"message":"PID Master 131420","level":"info"}
+{"message":"PID Master 176044","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1084,7 +1086,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 141136","level":"info"}
+{"message":"Worker 167588 end","level":"info"}
+{"message":"PID Master 173628","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1109,8 +1112,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 10152 end","level":"info"}
-{"message":"PID Master 158468","level":"info"}
+{"message":"Worker 153724 end","level":"info"}
+{"message":"PID Master 161004","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1135,8 +1138,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 93352 end","level":"info"}
-{"message":"PID Master 65036","level":"info"}
+{"message":"PID Master 138776","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1161,8 +1163,16 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 160556 end","level":"info"}
-{"message":"PID Master 148904","level":"info"}
+{"message":"Worker 105728 end","level":"info"}
+{"message":"Worker 14428 end","level":"info"}
+{"message":"Worker 156712 end","level":"info"}
+{"message":"Worker 174636 end","level":"info"}
+{"message":"Worker 21808 end","level":"info"}
+{"message":"Worker 62136 end","level":"info"}
+{"message":"Worker 163164 end","level":"info"}
+{"message":"Worker 26492 end","level":"info"}
+{"message":"Worker 21644 end","level":"info"}
+{"message":"PID Master 170092","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1187,7 +1197,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 141204","level":"info"}
+{"message":"PID Master 1640","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1212,7 +1222,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 152964","level":"info"}
+{"message":"Worker 26148 end","level":"info"}
+{"message":"PID Master 9996","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1237,8 +1248,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 151492 end","level":"info"}
-{"message":"PID Master 143148","level":"info"}
+{"message":"PID Master 132292","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1263,7 +1273,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 119744","level":"info"}
+{"message":"Worker 1040 end","level":"info"}
+{"message":"PID Master 25444","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1288,7 +1299,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 142356","level":"info"}
+{"message":"Worker 176976 end","level":"info"}
+{"message":"PID Master 140108","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1313,7 +1325,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 149100","level":"info"}
+{"message":"PID Master 46560","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1338,7 +1350,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 177888","level":"info"}
+{"message":"Worker 9016 end","level":"info"}
+{"message":"PID Master 54672","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1363,8 +1376,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 168692 end","level":"info"}
-{"message":"PID Master 15632","level":"info"}
+{"message":"Worker 92436 end","level":"info"}
+{"message":"PID Master 62784","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1389,8 +1402,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 141564 end","level":"info"}
-{"message":"PID Master 167344","level":"info"}
+{"message":"Worker 66064 end","level":"info"}
+{"message":"PID Master 54536","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1403,6 +1416,697 @@
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
+{"message":"Worker 58520 end","level":"info"}
+{"message":"PID Master 134028","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 144800","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 135472 end","level":"info"}
+{"message":"PID Master 17332","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 133140","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 178288","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 76288","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 102480 end","level":"info"}
+{"message":"PID Master 139324","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 85652 end","level":"info"}
+{"message":"PID Master 99720","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 151428 end","level":"info"}
+{"message":"PID Master 57016","level":"info"}
+{"message":"Worker 143844 end","level":"info"}
+{"message":"Worker 93148 end","level":"info"}
+{"message":"Worker 128272 end","level":"info"}
+{"message":"Worker 94400 end","level":"info"}
+{"message":"Worker 178824 end","level":"info"}
+{"message":"Worker 156652 end","level":"info"}
+{"message":"PID Master 130672","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 90752 end","level":"info"}
+{"message":"PID Master 68936","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 2212 end","level":"info"}
+{"message":"PID Master 28008","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 58184 end","level":"info"}
+{"message":"PID Master 47968","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 29652 end","level":"info"}
+{"message":"PID Master 43940","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 144960 end","level":"info"}
+{"message":"PID Master 46160","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 30960 end","level":"info"}
+{"message":"PID Master 53892","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 56612","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 40532","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 148264 end","level":"info"}
+{"message":"PID Master 59552","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 48784","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 52996","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 177856 end","level":"info"}
+{"message":"PID Master 144588","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 111028","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 99884 end","level":"info"}
+{"message":"PID Master 8052","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 160660 end","level":"info"}
+{"message":"PID Master 10976","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 40248","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 33236 end","level":"info"}
+{"message":"PID Master 66824","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 103100 end","level":"info"}
+{"message":"PID Master 102108","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
@@ -1411,11 +2115,238 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 155080 end","level":"info"}
+{"message":"PID Master 137552","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 93128","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 86480 end","level":"info"}
+{"message":"PID Master 72296","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 163820","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 109384 end","level":"info"}
+{"message":"PID Master 79576","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 61692 end","level":"info"}
+{"message":"PID Master 71368","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 173780","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"PID Master 70448","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 88436 end","level":"info"}
+{"message":"PID Master 88592","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 4768","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 123988 end","level":"info"}
+{"message":"PID Master 105544","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1440,8 +2371,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 8436 end","level":"info"}
-{"message":"PID Master 114472","level":"info"}
+{"message":"Worker 123660 end","level":"info"}
+{"message":"PID Master 117244","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1466,8 +2397,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 7176 end","level":"info"}
-{"message":"PID Master 171268","level":"info"}
+{"message":"Worker 117816 end","level":"info"}
+{"message":"PID Master 84356","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1492,7 +2423,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 172436","level":"info"}
+{"message":"Worker 129196 end","level":"info"}
+{"message":"PID Master 25084","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1517,8 +2449,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 111704 end","level":"info"}
-{"message":"PID Master 162440","level":"info"}
+{"message":"PID Master 130140","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1543,8 +2474,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 147320 end","level":"info"}
-{"message":"PID Master 15832","level":"info"}
+{"message":"Worker 100068 end","level":"info"}
+{"message":"PID Master 136428","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1569,7 +2500,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 33184","level":"info"}
+{"message":"Worker 64544 end","level":"info"}
+{"message":"PID Master 64540","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1594,8 +2526,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 173128 end","level":"info"}
-{"message":"PID Master 12508","level":"info"}
+{"message":"Worker 93028 end","level":"info"}
+{"message":"PID Master 88968","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1620,8 +2552,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 30832 end","level":"info"}
-{"message":"PID Master 176924","level":"info"}
+{"message":"Worker 159636 end","level":"info"}
+{"message":"PID Master 134184","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1646,8 +2578,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 30900 end","level":"info"}
-{"message":"PID Master 176780","level":"info"}
+{"message":"Worker 142372 end","level":"info"}
+{"message":"PID Master 158932","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1672,7 +2604,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 147984","level":"info"}
+{"message":"PID Master 131328","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1697,8 +2629,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 176292 end","level":"info"}
-{"message":"PID Master 43448","level":"info"}
+{"message":"PID Master 162864","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1723,8 +2654,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 41520 end","level":"info"}
-{"message":"PID Master 51072","level":"info"}
+{"message":"PID Master 144936","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1749,7 +2679,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 49724","level":"info"}
+{"message":"Worker 12796 end","level":"info"}
+{"message":"PID Master 132932","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1774,7 +2705,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 39796","level":"info"}
+{"message":"Worker 173604 end","level":"info"}
+{"message":"PID Master 86920","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1799,8 +2731,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 177708 end","level":"info"}
-{"message":"PID Master 60132","level":"info"}
+{"message":"Worker 178548 end","level":"info"}
+{"message":"PID Master 11516","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1825,7 +2757,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 35856","level":"info"}
+{"message":"PID Master 161372","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1850,8 +2782,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 50128 end","level":"info"}
-{"message":"PID Master 165256","level":"info"}
+{"message":"Worker 23148 end","level":"info"}
+{"message":"PID Master 135468","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1876,8 +2808,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 131244 end","level":"info"}
-{"message":"PID Master 58372","level":"info"}
+{"message":"Worker 172732 end","level":"info"}
+{"message":"PID Master 23736","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1902,7 +2834,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 71336","level":"info"}
+{"message":"PID Master 17816","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1915,8 +2847,20 @@
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
-{"message":"Worker 69676 end","level":"info"}
-{"message":"PID Master 77844","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 55736 end","level":"info"}
+{"message":"PID Master 54040","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1941,8 +2885,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 27120 end","level":"info"}
-{"message":"PID Master 60980","level":"info"}
+{"message":"Worker 42016 end","level":"info"}
+{"message":"PID Master 72900","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1967,8 +2911,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 90416 end","level":"info"}
-{"message":"PID Master 90772","level":"info"}
+{"message":"PID Master 52332","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -1993,8 +2936,7 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 82416 end","level":"info"}
-{"message":"PID Master 59992","level":"info"}
+{"message":"PID Master 163828","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2019,7 +2961,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 89532","level":"info"}
+{"message":"Worker 163848 end","level":"info"}
+{"message":"PID Master 38700","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2044,7 +2987,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 97476","level":"info"}
+{"message":"Worker 64620 end","level":"info"}
+{"message":"PID Master 51952","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2069,8 +3013,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 95720 end","level":"info"}
-{"message":"PID Master 97136","level":"info"}
+{"message":"Worker 40292 end","level":"info"}
+{"message":"PID Master 136700","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2095,8 +3039,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 90072 end","level":"info"}
-{"message":"PID Master 75424","level":"info"}
+{"message":"Worker 2748 end","level":"info"}
+{"message":"PID Master 58524","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2121,7 +3065,18 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"PID Master 96368","level":"info"}
+{"message":"Worker 45384 end","level":"info"}
+{"message":"Worker 64108 end","level":"info"}
+{"message":"Worker 141448 end","level":"info"}
+{"message":"Worker 53680 end","level":"info"}
+{"message":"Worker 78844 end","level":"info"}
+{"message":"Worker 25800 end","level":"info"}
+{"message":"Worker 82252 end","level":"info"}
+{"message":"Worker 111012 end","level":"info"}
+{"message":"Worker 116572 end","level":"info"}
+{"message":"Worker 90224 end","level":"info"}
+{"message":"Worker 162396 end","level":"info"}
+{"message":"PID Master 42368","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2134,7 +3089,38 @@
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
+{"message":"PID Master 24496","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 79920 end","level":"info"}
+{"message":"PID Master 136644","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
@@ -2146,8 +3132,9 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 70792 end","level":"info"}
-{"message":"PID Master 104976","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 62312 end","level":"info"}
+{"message":"PID Master 73196","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2172,8 +3159,8 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 75168 end","level":"info"}
-{"message":"PID Master 101700","level":"info"}
+{"message":"Worker 88160 end","level":"info"}
+{"message":"PID Master 46896","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2186,6 +3173,7 @@
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
@@ -2196,10 +3184,17 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Ending connection with MongoDBAtlas","level":"info"}
+{"message":"Worker 107072 end","level":"info"}
+{"message":"Ending connection with MongoDBAtlas","level":"info"}
+{"message":"Worker 81756 end","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
-{"message":"Worker 101572 end","level":"info"}
-{"message":"PID Master 108356","level":"info"}
+{"message":"Worker 178756 end","level":"info"}
+{"message":"PID Master 28648","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
 {"message":"Running on port 8080","level":"info"}
@@ -2224,3 +3219,12 @@
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
 {"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"Worker 94640 end","level":"info"}
+{"message":"Worker 98200 end","level":"info"}
+{"message":"Worker 40436 end","level":"info"}
+{"message":"Worker 171496 end","level":"info"}
+{"message":"Worker 148516 end","level":"info"}
+{"message":"Worker 167952 end","level":"info"}
+{"message":"Worker 63744 end","level":"info"}
+{"message":"Worker 95128 end","level":"info"}
+{"message":"Worker 75124 end","level":"info"}

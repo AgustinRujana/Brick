@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: min-content;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "empty logo"
+    "empty form";
+    grid-template-rows: repeat(2,minmax(auto,auto));
+    grid-template-columns: repeat(2,minmax(auto, 70%));
+}
+.logo{
+    padding: 2vh 2vh 0 2vh;
+    grid-area: logo ;
+    justify-self: start;
+    align-self: center;
+}
+.red{
+    grid-area: empty;   
+    background: linear-gradient(226deg, #DD3A3A -0.79%, #AC2D2D 52.2%, #8F2525 70.04%);
+}
+/* BUTTONS */ 
+.btn-google{
+    width: 30vh;
+}
+.btn-trns{
+    background: none;
+    border: none;
+}
+/* FORM */ 
+.form-container{
+    grid-area: form;
+    padding: 2vh;
+    margin-left: 5vh;
+    justify-self: start;
+    align-self: start;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    
+}
+input,select{
+    margin-top: 1.5vh;
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-submit{
+    background-color: #1B90A1;
+    color: white;
+    font-weight: bold;
+}
+
+.bottom-msg{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.error-msg{
+    color:#AC2D2D;  
+}
+
+@media only screen and (max-width: 600px){
+    .red{
+        display: none;
+    }
+    .container{
+        display: grid;
+        grid-template-areas: "btn btn"
+        "form form";
+        grid-template-rows: repeat(2,minmax(auto,auto));
+        grid-template-columns: repeat(2,minmax(auto, 100%));
+    }
+    .form-container{
+        padding: 1vh 0 1vh 0;
+        justify-self: center;
+        align-self: center;
+    }
+    .form{
+        width: 80%;
+    }
+    .logoXL{
+        padding: 0;
+    }
+}
