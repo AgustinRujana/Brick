@@ -25,10 +25,12 @@ const contentSchema = mongoose.Schema({
 
 const userSchema = mongoose.Schema({
     email: String,
-    name: String,
-    surname: String,
+    firstname: String,
+    lastname: String,
     avatar: String,
     password: String,
+    phone: Number,
+    country: String,
     plan: Number
 })
 

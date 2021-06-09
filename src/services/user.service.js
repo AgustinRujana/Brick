@@ -1,5 +1,4 @@
 // import userMongoDB from '../database/db.content.service.js'
-import passport from 'passport'
 import { validationResult } from '../scripts/validation.js'
 
 export const login = (req, res) => {
@@ -17,13 +16,12 @@ export const loginSubmit = (req, res) => {
 }
 
 export const register = (req, res) => {
-    res.render('signup', ( {msg: req.flash('signupMsg')} ))
+    res.render('signup')
 }
 
 export const registerSubmit = (passport) => {
     return  passport.authenticate('local-signup', {
-        sucessRedirect: '/',
+        successRedirect: '/',
         failureRedirect: '/account/register',
-        failureFlash: true
     })
 }
