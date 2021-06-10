@@ -7,15 +7,15 @@
                 <img class="btn-google"src="/img/btn-google.png">
             </button>
             <p>Or create an account:</p>
-            <p class="error-msg">{{msg}}</p>
         </div>
 
         <form method="POST" action="/account/register">
             <input name="email" class="form-control" id="signUpFormEmail" placeholder="E-mail">
+            <p class="error-msg">{{message}}</p>
             <p class="error-msg">{{errors.emailError}}</p>
             <input name="firstname" class="form-control" id="signUpFormFirstname" placeholder="First Name">
             <input name="lastname" class="form-control" id="signUpFormLastname" placeholder="Last Name">
-            <input name="password" class="form-control" id="signUpFormPassword" placeholder="Password">
+            <input name="password" class="form-control" id="signUpFormPassword" placeholder="Password" autocomplete="off">
             <p class="error-msg">{{errors.passwordError}}</p>
             <input name="phone" class="form-control" id="signUpFormPhone" placeholder="Phone Number">
             <select id="country" name="country" class="form-control" id="signUpFormCountry">
@@ -263,7 +263,7 @@
                             <option value="Yemen">Yemen</option>
                             <option value="Zambia">Zambia</option>
                             <option value="Zimbabwe">Zimbabwe</option>
-                </select>
+            </select>
             <input class="btn-submit" type="submit" value="Register">
         </form>  
         <p class="bottom-msg">Have and account? <a href="/account/login">Log In</a></p>
