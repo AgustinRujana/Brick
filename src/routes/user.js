@@ -10,17 +10,22 @@ export default function userRoutes(app, passport) {
             res.render('signup', {message: req.flash('signupMsg')})
         })
         .post(
+            body('phone').isNumeric().withMessage('This field just allow numbers'),
+            body('email').isEmail().withMessage('Must be an email'),
+            body('email').notEmpty().withMessage('This field is required'),
             body('firstname').notEmpty().withMessage('This field is required'),
             body('lastname').notEmpty().withMessage('This field is required'),
             body('phone').notEmpty().withMessage('This field is required'),
-            body('email').isEmail().withMessage('Must be an email'),
             body('password').isLength({ min: 5 }).withMessage('Must be at least 5 characters'),
-            body('phone').isNumeric().withMessage('This field just allow numbers'),
+            body('password').notEmpty().withMessage('This field is required'),
                 (req, res) => {
                         let errors = validationResult(req).errors
                         if(errors.length !== 0) {
-                            console.log(errors)
-                            res.render('signup', {errors: errors})
+                            let errorMsg = {}
+                            errors.forEach(e => {
+                                errorMsg[e.param] = e.msg                               
+                            })
+                            res.render('signup', {errors: errorMsg})
                         } else {
                             passport.authenticate('local-signup', { 
                             successRedirect: '/',

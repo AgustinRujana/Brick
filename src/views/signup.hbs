@@ -12,12 +12,15 @@
         <form method="POST" action="/account/register">
             <input name="email" class="form-control" id="signUpFormEmail" placeholder="E-mail">
             <p class="error-msg">{{message}}</p>
-            <p class="error-msg">{{errors.emailError}}</p>
+            <p class="error-msg">{{errors.email}}</p>
             <input name="firstname" class="form-control" id="signUpFormFirstname" placeholder="First Name">
+            <p class="error-msg">{{errors.firstname}}</p>
             <input name="lastname" class="form-control" id="signUpFormLastname" placeholder="Last Name">
+            <p class="error-msg">{{errors.lastname}}</p>
             <input name="password" class="form-control" id="signUpFormPassword" placeholder="Password" autocomplete="off">
-            <p class="error-msg">{{errors.passwordError}}</p>
+            <p class="error-msg">{{errors.password}}</p>
             <input name="phone" class="form-control" id="signUpFormPhone" placeholder="Phone Number">
+            <p class="error-msg">{{errors.phone}}</p>
             <select id="country" name="country" class="form-control" id="signUpFormCountry">
                             <option value="Afghanistan">Afghanistan</option>
                             <option value="Åland Islands">Åland Islands</option>
