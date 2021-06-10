@@ -14,31 +14,34 @@ const passportConfig = (passport) => {
   
   passport.use('local-signup', new LocalStrategy({
     usernameField: 'email',
-    passwordField: 'password'
+    passwordField: 'password',
+    passReqToCallback: true
   },
-      function(email, password, done) {
+      function(req, email, password, done) {
         process.nextTick( () => {
           User.findOne({ email: email }, function (err, user) {
             if (err) {
               return done(err); 
             }
             if (user) {
-              console.log('User Taken')
-              return done(null, false, {message: 'That email already taken'});
+              return done(null, false, req.flash('signupMsg', 'That email is taken'));
             }
+            
+            let data = req.body
 
             let newUser = new User()
             newUser.email = email
-            // newUser.firstname = firstname
-            // newUser.lastname = lastname
-            // newUser.avatar = 'A pixel Icon scr' //Later me problem
-            // newUser.phone = phone
-            // newUser.country = country
+            newUser.firstname = data.firstname
+            newUser.lastname = data.lastname
+            newUser.avatar = 'Default icon string'
+            newUser.phone = data.phone
             newUser.password = password
-            //newUser.plan = 0 //Free plan default
+            newUser.country = data.country
+            newUser.plan = 0 //Default plan
+
             newUser.save((err) => {
               if(err) { throw err }
-            return done(null, user);
+              return done(null, newUser);
             })
           });
         })
