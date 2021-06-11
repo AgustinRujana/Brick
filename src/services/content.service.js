@@ -15,7 +15,6 @@ export const getCategorie = async (req,res) => {
 } 
 
 export const getZip = async (req, res) => {
-    //Hands the Zip File -BUT- without checking if the user is authorize (Later me problem)
     let id = req.params.id
     const contentReq = new contentMongoDB()
     const contentRes = await contentReq.read({_id: id}, 'zipSrc')

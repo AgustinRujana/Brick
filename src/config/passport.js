@@ -1,4 +1,5 @@
 import { Strategy as LocalStrategy } from 'passport-local'
+import { Strategy as GoogleStrategy } from 'passport-google-oauth20';
 import {user as User} from '../database/models.js'
 
 const passportConfig = (passport) => {
@@ -46,7 +47,7 @@ const passportConfig = (passport) => {
           });
         })
       }
-    ))
+  ))
 
   passport.use('local-login', new LocalStrategy({
     usernameField: 'email',
@@ -68,6 +69,42 @@ const passportConfig = (passport) => {
       });
     }
   ))
+
+  passport.use('google-signup', new GoogleStrategy({
+    clientID: '719209026312-89tjekhmrrktoac38768bld62l96fqbt.apps.googleusercontent.com',
+    clientSecret: 'NLh_Zu2uICFWq6b_l4h7ksOv',
+    callbackURL: "http://localhost:8080/auth/google/callback",
+  },
+  function(accessToken, refreshToken, profile, done) {
+    process.nextTick( () => {
+      User.findOne({ email: profile._json.email }, function (err, user) {
+        if (err) {
+          return done(err);
+        }
+        if (user) {
+          return done(null, user);
+        }
+        
+        let newUser = new User()
+        newUser.email = profile._json.email
+        newUser.firstname = profile._json.given_name
+        newUser.lastname = profile._json.family_name
+        newUser.avatar = 'Default icon string'
+        newUser.phone = 0 //Phone ask later
+        newUser.password = newUser.generateHash(password)
+        newUser.country = 'Default' //Country ask later
+        newUser.plan = 0 //Default plan
+
+        newUser.save((err) => {
+          if(err) { throw err }
+          return done(null, newUser);
+        })
+      });
+    })
+  }
+));
+
+
 } 
 
 export default passportConfig

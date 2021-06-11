@@ -15,6 +15,7 @@ import http from 'http'
 import { MongoDBAtlas } from './database/db.js'
 
 import session from 'express-session'
+import MongoStore from 'connect-mongo'
 import passport from 'passport'
 import passportConfig from './config/passport.js'
 import flash from 'connect-flash'
@@ -36,11 +37,16 @@ app.use(compression())
 ///////////////////
 
 //  Session, Passport & Flash//
+const MongoDBAtlasURL = 'mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority'
 passportConfig(passport)
 app.use(session({
     secret: 'NeverUnderstoodWhyThisExist',
     resave: true,
-    saveUninitialized: true
+    saveUninitialized: true,
+    store: MongoStore.create({
+        mongoUrl: MongoDBAtlasURL,
+        ttl: 24 * 60 * 60 //Session persist for the day
+      })
 }))
 
 app.use(passport.initialize())
@@ -50,6 +56,7 @@ app.use(flash())
 
 // Handlebars //
 import handlebars from 'express-handlebars'
+import { isLoggedIn } from './middleware/sessionLogs.js'
 app.engine( 
     "hbs",
     handlebars({
@@ -65,6 +72,11 @@ app.set("views", path.join(__dirname, 'views'));
 contentRoutes(app, passport)
 userRoutes(app, passport)
 //////////////
+
+// TEST
+app.get('/', isLoggedIn,(req, res) => {
+    res.send(`Welcome ${req.user.firstname}`)
+})
 
 //////////////////////////////////////
 //          Cluster & Start         //
@@ -87,7 +99,7 @@ if(cluster.isMaster) {
 } else {
     server.listen(port, async () => {
         logger.info(`Running on port ${port}`)
-        const mongo = new MongoDBAtlas('mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority')
+        const mongo = new MongoDBAtlas(MongoDBAtlasURL)
         await mongo.connect()
     })
 }

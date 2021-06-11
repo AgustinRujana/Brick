@@ -1,7 +1,12 @@
-import * as userService from '../services/user.service.js'
 import { body, validationResult} from 'express-validator'
 
 export default function userRoutes(app, passport) {
+    app.route('/account/logout')
+        .get((req, res) => {
+            req.session.destroy();
+            res.redirect('/')
+        })
+
     app.route('/account/login')
         .get((req, res) => {
             res.render('login', {messageEmail: req.flash('loginMsgEmail'), messagePsw: req.flash('loginMsgPsw')})
@@ -25,8 +30,7 @@ export default function userRoutes(app, passport) {
                             })(req, res)
                         }
                 }
-        )
-        
+        )  
 
     app.route('/account/register')
         .get((req, res) => {
@@ -58,4 +62,14 @@ export default function userRoutes(app, passport) {
                         }
                 }
         )
+    
+    app.route('/auth/google')
+        .get(passport.authenticate('google-signup', { scope: ['profile'] }));
+    
+    app.route('/auth/google/callback')
+        .get(passport.authenticate('google-signup', {
+            successRedirect: '/',
+            failureRedirect: '/account/register',
+            failureFlash: true
+        }))        
 }
