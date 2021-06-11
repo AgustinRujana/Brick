@@ -3,7 +3,30 @@ import { body, validationResult} from 'express-validator'
 
 export default function userRoutes(app, passport) {
     app.route('/account/login')
-        .get(userService.login)
+        .get((req, res) => {
+            res.render('login', {messageEmail: req.flash('loginMsgEmail'), messagePsw: req.flash('loginMsgPsw')})
+        })
+        .post(
+            body('email').notEmpty().withMessage('This field is required'),
+            body('password').notEmpty().withMessage('This field is required'),
+                (req, res) => {
+                        let errors = validationResult(req).errors
+                        if(errors.length !== 0) {
+                            let errorMsg = {}
+                            errors.forEach(e => {
+                                errorMsg[e.param] = e.msg                               
+                            })
+                            res.render('login', {errors: errorMsg})
+                        } else {
+                            passport.authenticate('local-login', { 
+                            successRedirect: '/',
+                            failureRedirect: '/account/login',
+                            failureFlash: true 
+                            })(req, res)
+                        }
+                }
+        )
+        
 
     app.route('/account/register')
         .get((req, res) => {
@@ -28,7 +51,7 @@ export default function userRoutes(app, passport) {
                             res.render('signup', {errors: errorMsg})
                         } else {
                             passport.authenticate('local-signup', { 
-                            successRedirect: '/',
+                            successRedirect: '/account/login',
                             failureRedirect: '/account/register',
                             failureFlash: true 
                             })(req, res)

@@ -10,8 +10,11 @@
         </div>
         <form method="POST" action="/account/login">
             <input name="email" class="form-control" id="signUpFormEmail" placeholder="E-mail">
-            <p class="error-msg">{{errors.emailError}}</p>
+            <p class="error-msg">{{messageEmail}}</p>
+            <p class="error-msg">{{errors.email}}</p>
             <input name="password" class="form-control" id="signUpFormPassword" placeholder="Password">
+            <p class="error-msg">{{messagePsw}}</p>
+            <p class="error-msg">{{errors.password}}</p>
             <input class="btn-submit" type="submit" value="Log In">
         </form>  
         <p class="bottom-msg">Need an account? <a href="/account/register">Sign In</a></p>

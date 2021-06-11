@@ -14,7 +14,3 @@ export const loginSubmit = (req, res) => {
     const data = req.body
     res.status(200).send(data)
 }
-
-export const registerInfo = (req, res) => {
-    res.render('signup_info')
-}

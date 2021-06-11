@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import bcrypt from 'bcrypt';
 
 const collectionContent = 'content';
 const collectionUsers = 'user';
@@ -35,6 +36,16 @@ const userSchema = mongoose.Schema({
 })
 
 //////////////////////////////////
+//            Methods           //
+//////////////////////////////////
+
+userSchema.methods.generateHash = (password) => {
+    return bcrypt.hashSync(password, bcrypt.genSaltSync(9))
+}
+
+userSchema.methods.validPassword = function (password) {
+    return bcrypt.compareSync(password, this.password)
+}
 
 export const content = mongoose.model(collectionContent, contentSchema, 'content');
 export const user = mongoose.model(collectionUsers, userSchema, 'user')
