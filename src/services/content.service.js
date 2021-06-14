@@ -1,4 +1,7 @@
 import contentMongoDB from '../database/db.content.service.js'
+export const renderLanding = (req, res) => {
+    res.render('main')
+}
 
 export const getCategorie = async (req,res) => {
     let categorie  = req.query.ctg || null  //Checks if a filter is aplied

@@ -1,14 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --main: #8F2525;
+    --sec: #1B90A1;
+    --light: white;
+}
+
 *{
     margin: 0;
     padding: 0;
 }
+
 body{
     min-height: min-content;
 }
+
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
+
+/*general*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vh;
+}
+p, .emphasis, button, li{
+    font-family: 'Open Sans', sans-serif;
+}
+ul>li{
+    list-style: none;
+}
+a, a:visited, a:active{
+    color: var(--main);
+}
+.height-100{
+    height: 100vh;
+}
+
+/*LANDING*/
+/*header*/
+.ldg-header{
+    height: 10vh;
+    background-color: var(--main);
+}
+.ldg-header img{
+    margin-left: 2vh;
+    height: 40%;
+}
+.flex-header-items,.ldg-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--light);
+}
+.flex-header-items p, .flex-header-items button{
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+.flex-header-items{
+    height: 100%;
+}
+
+/*main*/
+.ldg-main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.ldg-main-container img {
+    width: 50%;
+}
+.flex-main-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.flex-main-items img, .flex-main-items p, .flex-main-items button{
+    margin: 3vh;
+    padding: 2vh;
+    font-weight: 500;
+    font-size: 2.75vh;
+}
+
+.flex-main-items p {
+    text-align: center;
+}
+
+.flex-header-items button{
+    height: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 20px 0 20px;
+    background:  var(--light);
+    color: var(--main);
+    border-radius: 5vh;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.flex-main-items button {
+    background: var(--sec);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: var(--sec);
+    border-radius: 10px;
+    color: var(--light);
+}
+/*Benefits*/
+.ldg-benefits-container{
+    background: var(--sec);
+}
+/*Pricing*/
+.ldg-subscription-container{
+    justify-content: center;
+}
+.ldg-subscription-container h1{
+    color: var(--main);
+}
+.ldg-subscription-container, .pricing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.pricing-container{
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.pricing{
+    justify-content: space-around;
+    width: 30vh;
+    border: 5px solid var(--sec);
+    border-radius: 10px;
+    padding: 15% 8% 8% 8%;
+    margin: 10%;
+}
+.pricing div, .emphasis, .pricing button{
+    font-weight: 500;
+    margin: 2vh;
+}
+.pricing div{
+    font-size: 2.75vh;
+}
+.pricing button{
+    margin: 1.5vh;
+    padding: 1vh 2vh;
+    background: var(--main);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:var(--main);
+    border-radius: 10px;
+    color: var(--light);
+    font-size: 2.5vh;
+}
+
+.emphasis{
+    font-size: 3.5vh;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+/*faq*/
+.ldf-faq-container{
+    min-height: 100vh;
+}
+#faq-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.ldf-faq-container h1{
+    color: var(--main);
+    text-align: center;
+}
+.question-box{
+    width: 80vw;
+    border: 4px solid var(--sec);
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 5.5vh;
+    margin: 2vh 2vw;
+    padding:0;
+}
+.question-box p {
+    padding: 1vh;
+}
+.answer-box{
+    display: none;
+    margin: 0;
+    background: #DCFBFF;
+}
+.question-box svg,.answer-box svg{
+    margin: 1.5vh 0 0 1vh;
+}
+.question-box p,.answer-box p{
+    margin: 0 0 0 1vh;
+    font-size: 3vh;
+}
+.faq-text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.faq-text-container p {
+    margin: 0 1vh 2vh 1vh;
+    font-size: 3vh;
+}
+/*footer*/
+.ldg-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(90deg, #DD3A3A 0%, #AC2D2D 27.46%, var(--main) 87.74%);
+}
+.socialMedia-container{
+    display: flex;
+    flex-direction: row;
+    margin: 1vh 3vw 1vh 3vw;
+}
+.socialMedia-container div{
+    margin: 1vh 2vw 1vh 2vw ;
+}
+.socialMedia-container p{
+    margin-bottom: 2vh;
+    color: var(--light);
+    font-size: 3.5vh;
+    text-align: center;
+}
+.socialMedia-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.footer-info{
+    margin: 1vh 3vw 1vh 3vw;
+}
+.footer-info p{
+    margin-bottom: 2vh;
+    text-align: center;
+    color: var(--light);
+    font-size: 2.5vh;
+}
+
+
+/* SIGN IN/SIGN UP */
 .container{
     display: grid;
     height: 100vh;
@@ -25,7 +268,7 @@ p{
 }
 .red{
     grid-area: empty;   
-    background: linear-gradient(226deg, #DD3A3A -0.79%, #AC2D2D 52.2%, #8F2525 70.04%);
+    background: linear-gradient(226deg, #DD3A3A -0.79%, #AC2D2D 52.2%, var(--main) 70.04%);
 }
 /* BUTTONS */ 
 .btn-google{
@@ -72,8 +315,8 @@ input,select{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .btn-submit{
-    background-color: #1B90A1;
-    color: white;
+    background-color: var(--sec);
+    color: var(--light);
     font-weight: bold;
 }
 
@@ -85,8 +328,33 @@ input,select{
 .error-msg{
     color:#AC2D2D;  
 }
+@media only screen and (max-width: 700px){
+    /*pricing*/
+    .pricing-container{
+        width: 70vw;
+        flex-direction: column;
+    }
+}
 
 @media only screen and (max-width: 600px){
+   /*LANDING*/
+    /*main*/
+    .main-img{
+        display: none;
+    }
+    .ldg-main-container img {
+        width: 75%;
+    }
+    /*header*/
+    .flex-header-items{
+        display: none;
+    }
+    /*pricing*/
+    .pricing-container{
+        width: 50vh;
+        flex-direction: column;
+    }
+    /* SIGN IN/SIGN UP */
     .red{
         display: none;
     }
