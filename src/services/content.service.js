@@ -1,6 +1,26 @@
 import contentMongoDB from '../database/db.content.service.js'
+
 export const renderLanding = (req, res) => {
-    res.render('main')
+    let avatar, name, plan = null
+    if(req.user){
+        name = `${req.user.firstname} ${req.user.lastname}`
+        avatar = req.user.avatar
+        switch(req.user.plan){
+            case 0:
+                plan = 'Free user'
+                break
+            case 1:
+                plan = 'Bronce user'
+                break
+            case 2:
+                plan = 'Silver user'
+                break
+            case 3:
+                plan = 'Gold user'
+                break
+        }
+    }
+    res.render('main', {avatar: avatar, plan: plan, name: name})
 }
 
 export const getCategorie = async (req,res) => {

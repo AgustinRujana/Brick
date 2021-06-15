@@ -23,7 +23,8 @@ p{
 /*general*/
 h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 6vh;
+    font-size: 5.5vh;
+    text-align: center;
 }
 p, .emphasis, button, li{
     font-family: 'Open Sans', sans-serif;
@@ -35,7 +36,7 @@ a, a:visited, a:active{
     color: var(--main);
 }
 .height-100{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*LANDING*/
@@ -46,25 +47,28 @@ a, a:visited, a:active{
 }
 .ldg-header img{
     margin-left: 2vh;
-    height: 40%;
+}
+.flex-header-items{
+    margin-left: auto;
+    height: 100%;
 }
 .flex-header-items,.ldg-header{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     color: var(--light);
 }
 .flex-header-items p, .flex-header-items button{
     padding: 0.5vh 2vh 0.5vh 2vh;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 2.5vh;
-}
-.flex-header-items{
-    height: 100%;
+    font-size: 2.75vh;
 }
 
+#ham-menu{
+    display: none;
+}
 /*main*/
 .ldg-main-container{
     display: flex;
@@ -75,6 +79,7 @@ a, a:visited, a:active{
     height: 90vh;
 }
 .ldg-main-container img {
+    height: 100%;
     width: 50%;
 }
 .flex-main-items{
@@ -102,7 +107,7 @@ a, a:visited, a:active{
     background:  var(--light);
     color: var(--main);
     border-radius: 5vh;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border:none;
 }
 
 .flex-main-items button {
@@ -112,6 +117,59 @@ a, a:visited, a:active{
     border-radius: 10px;
     color: var(--light);
 }
+
+/* Account Menu */
+#avatarIcon {
+    background: var(--light);
+    height: 50%;
+    margin-right: 15px;
+    padding: 6px;
+    border-radius: 5vh;
+}
+
+.accountMenu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 10vh;
+    background: var(--sec);
+    padding: 10px;
+}
+
+.accountMenu div p{
+    font-weight: 400;
+    padding: 0px;
+}
+
+.accountMenu-head {
+    display: flex;
+    align-items: center;
+}
+
+.accountMenuOpen {
+    border: 4px solid var(--sec);
+    padding: 2px !important;
+}
+
+.accountMenu-icon {
+    height: 10vh;
+    border-radius: 5vh;
+    background: var(--light);
+    margin: 0 6px 0 0 !important;
+    padding: 3px;
+}
+
+.accountMenu-account {
+    margin: 6px 0 6px 0;
+}
+
+.accountMenu-account hr{
+    border: 1px solid;
+}
+.accountMenu-foot {
+    text-align: center;
+}
+
 /*Benefits*/
 .ldg-benefits-container{
     background: var(--sec);
@@ -261,8 +319,8 @@ a, a:visited, a:active{
     grid-template-columns: repeat(2,minmax(auto, 70%));
 }
 .logo{
-    padding: 2vh 2vh 0 2vh;
-    grid-area: logo ;
+    padding: 2vh 0vh 4vh 0vh;
+    grid-area: logo;
     justify-self: start;
     align-self: center;
 }
@@ -337,7 +395,7 @@ input,select{
 }
 
 @media only screen and (max-width: 600px){
-   /*LANDING*/
+    /*LANDING*/
     /*main*/
     .main-img{
         display: none;
@@ -348,6 +406,78 @@ input,select{
     /*header*/
     .flex-header-items{
         display: none;
+    }
+    #avatarIcon {
+        height: 4vh;
+        margin-right: 0px;
+        padding: 5px;
+        border-radius: 5vh;
+    }
+    /*MENU HAM */ 
+    #ham-menu{
+        display: none;
+        position: absolute;
+        right: 0;
+    }
+    .menu-btn{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        transition: all .5s ease-in-out;
+        border: 1 vh var(--light);
+    }
+    .menu-btn_burger{
+        width: 32px;
+        height: 4px;
+        background: var(--light);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(225,101,47,.2);
+        transition: all .5s ease-in-out;
+    }
+    .menu-btn_burger::before,.menu-btn_burger::after{
+        content: '';
+        position: absolute;
+        width: 32px;
+        height: 4px;
+        background: var(--light);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(225,101,47,.2);
+        transition: all .5s ease-in-out;
+    }
+    .menu-btn_burger::before{
+        transform: translateY(-1.75vh);
+    }
+    .menu-btn_burger::after{
+        transform: translateY(1.75vh);
+    }
+     #btn-menu.active .menu-btn_burger{
+        background: transparent;
+        box-shadow: 0 2px 5px rgba(225,101,47,.2);
+    }
+    #btn-menu.active .menu-btn_burger::before{
+        transform: rotate(45deg);
+    }
+    #btn-menu.active .menu-btn_burger::after{
+        transform: rotate(-45deg);
+    }
+    #ham-menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 1vh 2vw 1vh 2vw;
+    }
+    #ham-menu ul li,#ham-menu ul li button{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 2.75vh;
+    }
+    #ham-menu ul li button{
+        background: none;
+        border: none;
+        color: var(--sec);   
     }
     /*pricing*/
     .pricing-container{

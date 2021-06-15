@@ -1,12 +1,9 @@
 <main class="container">       
-    <img class="logo" src="/img/logoXL.png" alt="Logo Brick">
     <div class="red"></div>
     <div class="form-container">
+    <img class="logo" src="/img/logoXL.png" alt="Logo Brick">
         <div class="flex-col">
-            <button class="btn-trns" onclick="javascript:location.href='/auth/google'">
-                <img class="btn-google"src="/img/btn-google.png">
-            </button>
-            <p>Or log in an account:</p>
+            <p>Log into account:</p>
         </div>
         <form method="POST" action="/account/login">
             <input name="email" class="form-control" id="signUpFormEmail" placeholder="E-mail">
@@ -18,6 +15,6 @@
             <input class="btn-submit" type="submit" value="Log In">
         </form>  
         <p class="bottom-msg">Need an account? <a href="/account/register">Sign In</a></p>
-        <p class="bottom-msg">Just curious? <a href="/">Go Home</a></p>
+        <p class="bottom-msg">Just curious? <a href="/">Home</a></p>
     </div>
 </main>

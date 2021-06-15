@@ -1,3 +1,4 @@
+    {{!-- Desktop Menu --}}
     <header class="ldg-header">
         <img src="img/logoHeader.png" alt="white logo">
         <div class="flex-header-items">
@@ -6,15 +7,56 @@
             <p>FAQ</p>
 
             {{!-- Ignore this #HandlebarsMagic --}}
-            {{#if user}}
-                
+            {{#if avatar}}
+                <img id="avatarIcon" class="" src="{{avatar}}" alt="User Avatar">
+                <div class="accountMenu">
+                    <div class="accountMenu-head">
+                        <img class="accountMenu-icon" src="{{avatar}}" alt="User Avatar">
+                        <div class="accountMenu-user">
+                            <p><b>{{name}}</b></p>
+                            <p>{{plan}}</p>
+                        </div>
+                    </div>
+                    <div class="accountMenu-account">
+                        <p>Account</p>
+                        <ul>
+                            <li>Configuration</li>
+                            <li>Help</li>
+                        </ul>
+                    </div>
+                    <div class="accountMenu-foot">
+                        <button onclick="javascript:location.href='/account/logout'">Log Out</button>
+                    </div>
+                </div>
+
             {{else}}
-                <button onclick="javascript:location.href='/account/login'">Login</button>
+                <button onclick="javascript:location.href='/account/login'">Log In</button>
             {{/if}}
-
-
+        </div>
+        <div>
+            <div class="menu-btn" id="btn-menu">
+            <div class="menu-btn_burger" ></div>
         </div>
     </header>
+
+    {{!-- Mobile Menu --}}
+    <div class="hide">
+        <div class="ham-menu" id="ham-menu">
+            <ul>
+                <li>About Us</li>
+                <li>Subscription</li>
+                <li>FAQ</li>
+
+                {{!-- Ignore this #HandlebarsMagic --}}
+                {{#if avatar}}
+                    <li><img id="avatarIcon" src="{{avatar}}" alt="User Avatar"></li>
+                {{else}}
+                    <li><button onclick="javascript:location.href='/account/login'">Log In</button></li>
+                {{/if}}
+            </ul>
+        </div>
+    </div>
+
     <main class="ldg-main-container">
         <img src="img/computers.jpg" alt="Ejemplo" class="main-img">
         <div class="flex-main-items">
@@ -22,6 +64,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis ex nisl. Phasellus dictum, nibh varius ultrices vulputate.</p>
             <button id="btn-start">Get started</button>
         </div>
+
     </main>
     <section class="ldg-benefits-container height-100"></section>
     <section class="ldg-subscription-container height-100" id="subscription-section">
