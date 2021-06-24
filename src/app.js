@@ -37,7 +37,6 @@ app.use(compression())
 ///////////////////
 
 //  Session, Passport & Flash//
-const MongoDBAtlasURL = 'mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority'
 passportConfig(passport)
 app.use(session({
     secret: 'NeverUnderstoodWhyThisExist',
@@ -81,7 +80,8 @@ app.get('/', isLoggedIn,(req, res) => {
 //////////////////////////////////////
 //          Cluster & Start         //
 //////////////////////////////////////
-
+import factoryContentModel from './database/db.js'
+const option = process.argv[2] || 'Mongo'
 const numCPUs = os.cpus().length
 const server = http.Server(app)
 const port = 8080 || process.env.port
@@ -99,7 +99,7 @@ if(cluster.isMaster) {
 } else {
     server.listen(port, async () => {
         logger.info(`Running on port ${port}`)
-        const mongo = new MongoDBAtlas(MongoDBAtlasURL)
+        const mongo = new factoryContentModel(option)
         await mongo.connect()
     })
 }

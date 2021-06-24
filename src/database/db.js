@@ -1,26 +1,29 @@
-import mongoose from 'mongoose'
-import logger from '../config/winston.js'
+import persistanceFS from "./persistanceFS.js"
+import persistanceMongoDBAtlas from "./persistanceMongoDB.js"
+import logger from "../config/winston.js"
 
-export class MongoDBAtlas {
-    
-    constructor(Url) {
-        this.Url = Url
+const MongoDBAtlasURL = 'mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority'
 
-        process.on('exit', () => {
-            this.close()
-        })
-    }
+////////////////////////////////////////////
+//                FACTORY                 //
+////////////////////////////////////////////
+class factoryContentModel {
+    static instance
 
-    async connect(Url) {
-        try {
-            await mongoose.connect(this.Url, { useNewUrlParser: true, useUnifiedTopology: true }).catch( error => logger.error(`Connection error: ${error}`))
-            logger.info('MongoDBAtlas Connected')
-        } catch (error) {
-            logger.error(`MongoDBAtlas: Error to connect ${error}`)            
+    constructor(option) {
+        if(!factoryContentModel.instance) {
+            logger.info(`${option} is the selected persistance`)
+            switch(option) {
+                case 'File': return new persistanceFS()
+                case 'Mongo': return new persistanceMongoDBAtlas(MongoDBAtlasURL)
+            }
+        }
+        else {
+            logger.error('Database already choose')
         }
     }
-
-    close() {
-        logger.info('Ending connection with MongoDBAtlas')
-    }
 }
+
+
+
+export default factoryContentModel
