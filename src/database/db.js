@@ -1,5 +1,5 @@
-import persistanceFS from "./persistanceFS.js"
-import persistanceMongoDBAtlas from "./persistanceMongoDB.js"
+import persistanceFS from "./DAOFS.js"
+import persistanceMongoDBAtlas from "./DAOMongoDB.js"
 import logger from "../config/winston.js"
 
 const MongoDBAtlasURL = 'mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority'

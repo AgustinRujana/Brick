@@ -1,5 +1,6 @@
 import mongoose from 'mongoose'
 import logger from '../config/winston.js'
+import contentMongoDB from './db.content.service.js';
 import { content as Content } from './models.js';
 
 export default class persistanceMongoDBAtlas {
@@ -20,7 +21,8 @@ export default class persistanceMongoDBAtlas {
             }
         })()
     }
-    getContents = async () => {
+
+    async getContents() {
         try {
             return await Content.find({}).lean()
         }
@@ -28,7 +30,8 @@ export default class persistanceMongoDBAtlas {
             logger.error('Error to get content')
         }
     }
-    addContent = async content => {
+
+    async addContent(content) {
         try {
             const instance = new Content(content);
             await instance.save()
@@ -36,5 +39,11 @@ export default class persistanceMongoDBAtlas {
         catch(error) {
             logger.error('Error to add content')
         }
+    }
+
+    async getZip(id) {
+        const contentReq = new contentMongoDB()
+        const contentRes = await contentReq.read({_id: id}, 'zipSrc')
+        return zipDTO(id, contentRes.zipSrc)
     }
 }

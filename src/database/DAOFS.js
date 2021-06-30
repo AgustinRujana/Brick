@@ -1,4 +1,5 @@
 import fs from 'fs'
+import zipDTO from './zipDTO.js'
 import logger from '../config/winston.js'
 
 export default class persistanceFS {
@@ -21,11 +22,23 @@ export default class persistanceFS {
             logger.error(`Error FS: ${error}`)
         }
     }
+
     addContent = async content => {
         try {
             let contents = JSON.parse(await fs.promises.readFile('data.txt'))
             contents.push(content)
             await fs.promises.writeFile('data.txt', JSON.stringify(contents))
+        }
+        catch(error) {
+            logger.error(`Error FS: ${error}`)
+        }
+    }
+
+    async getZip(id) {
+        try {
+            let data = await fs.promises.readFile('data.txt')
+            let filterData = data.find(e => e.id === id)
+            return zipDTO(filterData.id, filterData.zipSrc)
         }
         catch(error) {
             logger.error(`Error FS: ${error}`)
