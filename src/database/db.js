@@ -1,8 +1,9 @@
 import persistanceFS from "./DAOFS.js"
 import persistanceMongoDBAtlas from "./DAOMongoDB.js"
 import logger from "../config/winston.js"
+import config from "../../config.js"
 
-const MongoDBAtlasURL = 'mongodb+srv://agustin:Ar41735233@brickcluster.povsp.mongodb.net/BrickDatabase?retryWrites=true&w=majority'
+const MongoDBAtlasURL = config.MONGO_DB_URL
 
 ////////////////////////////////////////////
 //                FACTORY                 //

@@ -1,4 +1,5 @@
 import express from 'express'
+import config from '../config.js'
 import logger from './config/winston.js'
 import cookieParser from 'cookie-parser'
 import compression from 'compression'
@@ -12,7 +13,6 @@ const __dirname = path.dirname(__filename);
 import os from 'os'
 import cluster from 'cluster'
 import http from 'http'
-import { MongoDBAtlas } from './database/db.js'
 
 import session from 'express-session'
 import MongoStore from 'connect-mongo'
@@ -43,7 +43,7 @@ app.use(session({
     resave: true,
     saveUninitialized: true,
     store: MongoStore.create({
-        mongoUrl: MongoDBAtlasURL,
+        mongoUrl: config.MONGO_DB_URL,
         ttl: 24 * 60 * 60 //Session persist for the day
       })
 }))
@@ -81,11 +81,22 @@ app.get('/', isLoggedIn,(req, res) => {
 //          Cluster & Start         //
 //////////////////////////////////////
 import factoryContentModel from './database/db.js'
-const option = process.argv[2] || 'Mongo'
+const option = config.DATABASE
 const numCPUs = os.cpus().length
 const server = http.Server(app)
-const port = 8080 || process.env.port
 
+const port = config.PORT
+let ServerMode = config.SERVER_MODE;
+
+if(ServerMode == "fork") {
+    server.listen(port, async () => {
+        logger.info(`Running on port ${port}`)
+        const mongo = new factoryContentModel(option)
+        await mongo.connect()
+    })
+}
+
+if(ServerMode == "cluster") {
 if(cluster.isMaster) {
     logger.info(`PID Master ${process.pid}`)
     for(let i = 0; i < numCPUs; i++) {
@@ -102,6 +113,6 @@ if(cluster.isMaster) {
         const mongo = new factoryContentModel(option)
         await mongo.connect()
     })
-}
+}}
 
 
