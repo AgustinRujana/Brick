@@ -24,8 +24,13 @@ const contentSchema = mongoose.Schema({
     zipSrc: String
 })
 
-const userSchema = mongoose.Schema({
+const emailSchema = mongoose.Schema({
     email: String,
+    verified: Boolean
+})
+
+const userSchema = mongoose.Schema({
+    email: emailSchema,
     firstname: String,
     lastname: String,
     avatar: String,

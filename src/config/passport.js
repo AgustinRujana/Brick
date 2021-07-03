@@ -31,14 +31,14 @@ const passportConfig = (passport) => {
             let data = req.body
 
             let newUser = new User()
-            newUser.email = email
-            newUser.firstname = data.firstname
-            newUser.lastname = data.lastname
-            newUser.avatar = '/img/avatars/user.svg'
-            newUser.phone = data.phone
-            newUser.password = newUser.generateHash(password)
-            newUser.country = data.country
-            newUser.plan = 0 //Default plan
+              newUser.email = { email: email, verified: false}
+              newUser.firstname = data.firstname
+              newUser.lastname = data.lastname
+              newUser.avatar = '/img/avatars/user.svg' //Future upgrade, being able to upload avatar
+              newUser.phone = data.phone
+              newUser.password = newUser.generateHash(password)
+              newUser.country = data.country
+              newUser.plan = 0 //Default plan
 
             newUser.save((err) => {
               if(err) { throw err }
