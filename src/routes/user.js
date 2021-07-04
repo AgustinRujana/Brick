@@ -1,6 +1,10 @@
 import { body, validationResult} from 'express-validator'
+import * as userService from '../services/user.service.js';
+import { isLoggedIn } from '../middleware/sessionLogs.js';
 
 export default function userRoutes(app, passport) {
+    app.route('/account/confirmation')
+        .get(isLoggedIn, userService.mailConfirmation)
     app.route('/account/logout')
         .get((req, res) => {
             req.session.destroy();
@@ -45,7 +49,7 @@ export default function userRoutes(app, passport) {
             body('phone').notEmpty().withMessage('This field is required'),
             body('password').isLength({ min: 5 }).withMessage('Must be at least 5 characters'),
             body('password').notEmpty().withMessage('This field is required'),
-                (req, res) => {
+                (req, res, next) => {
                         let errors = validationResult(req).errors
                         if(errors.length !== 0) {
                             let errorMsg = {}
@@ -58,18 +62,8 @@ export default function userRoutes(app, passport) {
                             successRedirect: '/account/login',
                             failureRedirect: '/account/register',
                             failureFlash: true 
-                            })(req, res)
+                            })(req, res, next)
                         }
                 }
-        )
-    
-    app.route('/auth/google')
-        .get(passport.authenticate('google-signup', { scope: ['profile'] }));
-    
-    app.route('/auth/google/callback')
-        .get(passport.authenticate('google-signup', {
-            successRedirect: '/',
-            failureRedirect: '/account/register',
-            failureFlash: true
-        }))        
+        )      
 }
