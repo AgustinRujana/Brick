@@ -11796,3 +11796,11 @@
 {"message":"Error to send email: Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials f69sm10151772pfa.24 - gsmtp","level":"error"}
 {"message":"Information on sending email: undefined","level":"info"}
 {"message":"PID Master 15908","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"Running on port 8080","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
+{"message":"MongoDBAtlas Connected","level":"info"}
