@@ -5,6 +5,10 @@ import { isLoggedIn } from '../middleware/sessionLogs.js';
 export default function userRoutes(app, passport) {
     app.route('/account/confirmation')
         .get(isLoggedIn, userService.mailConfirmation)
+
+    app.route('/verified/:uniqueString')
+        .get(isLoggedIn, userService.verifiedEmail)
+
     app.route('/account/logout')
         .get((req, res) => {
             req.session.destroy();
@@ -62,7 +66,7 @@ export default function userRoutes(app, passport) {
                             successRedirect: '/account/login',
                             failureRedirect: '/account/register',
                             failureFlash: true 
-                            })(req, res, next)
+                            })(req, res)
                         }
                 }
         )      

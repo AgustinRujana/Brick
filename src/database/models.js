@@ -26,7 +26,8 @@ const contentSchema = mongoose.Schema({
 
 const emailSchema = mongoose.Schema({
     email: String,
-    verified: Boolean
+    verified: Boolean,
+    verificationString: String //Once the mail is verified this will be removed
 })
 
 const userSchema = mongoose.Schema({
