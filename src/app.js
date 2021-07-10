@@ -8,7 +8,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-
 import os from 'os'
 import cluster from 'cluster'
 import http from 'http'
@@ -19,9 +18,6 @@ import MongoStore from 'connect-mongo'
 import passport from 'passport'
 import passportConfig from './config/passport.js'
 import flash from 'connect-flash'
-import contentRoutes from './routes/content.js'
-import userRoutes from './routes/user.js'
-
 const app = express()
 
 //  Cookie & Body Parser //
@@ -56,27 +52,30 @@ app.use(flash())
 
 // Handlebars //
 import handlebars from 'express-handlebars'
-import { isLoggedIn } from './middleware/sessionLogs.js'
 app.engine( 
-    "hbs",
-    handlebars({
-        extname: ".hbs",
-        defaultLayout: "index.hbs"
-    })
+"hbs",
+handlebars({
+    extname: ".hbs",
+    defaultLayout: "index.hbs"
+})
 );
 app.set("view engine", "hbs");
 app.set("views", path.join(__dirname, 'views'));
 ////////////////
-
+    
 //  Routes  //
-contentRoutes(app, passport)
-userRoutes(app, passport)
-//////////////
+import RouterMain from './routes/main.js'
+import RouterContent from './routes/content.js'
+import RouterUser from './routes/user.js'
 
-// TEST
-app.get('/', isLoggedIn,(req, res) => {
-    res.send(`Welcome ${req.user.firstname}`)
-})
+const routerMain = new RouterMain()
+const routerContent = new RouterContent()
+const routerUser = new RouterUser(passport)
+
+app.use('/', routerMain.start())
+app.use('/content', routerContent.start())
+app.use('/account', routerUser.start())
+//////////////
 
 //////////////////////////////////////
 //          Cluster & Start         //

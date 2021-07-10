@@ -1,11 +1,19 @@
-import { isLoggedIn } from '../middleware/sessionLogs.js'
-import  * as contentService from '../services/content.service.js'
+import express from 'express'
+const router = express.Router()
 
-export default function contentRoutes(app) {
-    app.route('/')
-        .get(contentService.renderLanding)
-    app.route('/content')
-        .get(contentService.getCategorie)
-    app.route('/content/:id')
-        .get(isLoggedIn, contentService.getZip)
+import ContentControler from '../controler/content.js'
+import { isLoggedIn } from '../middleware/sessionLogs.js'
+
+class RouterContent {
+    constructor() {
+        this.contentControler = new ContentControler()
+    }
+
+    start() {
+        router.get('/', this.contentControler.getCategorie)
+        router.get('/:id', isLoggedIn, this.contentControler.getZip) //Chequear donde van los middlewares
+        return router
+    }
 }
+
+export default RouterContent
